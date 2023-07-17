@@ -1,0 +1,156 @@
+<!--Write the html code here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=arial">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        /* Dekstop view */
+        .container{
+            display: flex;
+            float: left;
+            height: 100%;
+        }
+       .newyork
+       {
+        font-family: Lobster;
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+       }
+       .nav
+       {
+        background-color: #191918;
+        color: white;
+        height: 35px;
+        padding-top: 15px;
+        display: flex;
+        justify-content: center;
+       }
+       .nav1
+       {
+        margin-left: 40px;
+    font-size: large;
+       
+       }
+       .column1{
+        border: solid 1px;
+        width: 50%;
+        margin-top: 1%;
+       }
+     .p1{
+        font-weight: bold;
+        font-size: 25px;
+     }
+     .row1, .row2{
+        border: solid 1px;
+        margin-left: 1%;
+        margin-top: 1%;
+     }
+     /* tab view */
+     @media screen and (min-width:469px) and (max-width:800px) {
+        .container{
+        width:100%;
+        margin-left:2%;
+        margin-right:2%;
+    }
+   .newyork{
+    font-size: 30px;
+    height:35px;
+}
+.nav{
+    padding: 10px;
+}
+     }
+     /* mobile view */
+        @media only screen and (max-width:468px)
+        {
+        .container{
+            display: inline;
+            height: 100%;
+            width: 100%;
+        }
+       .newyork
+       {
+        font-size: 20px;
+        height:30px;
+       }
+       .nav
+       {
+        display: inline-table;
+        width: 100%;
+        text-decoration: none;
+       text-align: left;
+        padding-top:5px;
+        font-size:small;
+        line-height: 35px;
+       }
+       .nav1
+       {
+        width:100%;
+       
+       }
+       .column1{
+        border: solid 1px;
+        width: 100%;
+       }
+     .p1{
+        font-weight: bold;
+        font-size: 25px;
+     }
+     .row1, .row2{
+        border: solid 1px;
+        margin-left: 1%;
+        margin-top: 1%;
+     }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="newyork">
+            The New York Times
+        </div>
+        <Nav>
+            <div class="nav">
+                <div class="nav1" >Home</div>
+                <div class="nav1">India</div>
+                <div class="nav1">World</div>
+                <div class="nav1">Cities</div>
+                <div class="nav1">Sports</div>
+                <div class="nav1">Entertainment</div>
+            </div>
+        </Nav>
+    </header>
+    <div class="container">
+            <div class="column1">
+                <p class="p1">How Space Became the Next ‘Great Power’ Contest Between the U.S. and China</p>
+                <p class="p2">
+                    The Biden administration faces not only waves of Chinese antisatellite weapons but a history of
+                   jumbled responses to the intensifying threat
+                </p>
+            </div>
+            <div class="column2">
+                <div class="row1">
+                    <p class="p1">How West Virginia Became a U.S. Leader in Vaccine Rollout</p>
+                <p style="text-align: left;">
+                    About 9 percent of all West Virginians have received a first dose of the coronavirus vaccine, a
+                    larger segment than almost every other state.Yet the state provides the clearest picture of a more
+                    fundamental problem: Even the most efficient operations do not have enough shots for everyone.
+                </p>
+                </div>
+                <div class="row2">
+                    <p class="p1">In Rural Montana, a Hope That Biden Will Reopen the Rails.</p>
+                    <p>
+                    The North Coast Hiawatha hasn’t run through Montana since 1979. Now cities like Billings, Bozeman,
+                    Helena and Missoula are hoping that “Amtrak Joe” will help fund new rail service.
+                    </p>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

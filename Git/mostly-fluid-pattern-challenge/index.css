@@ -1,0 +1,113 @@
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width:500px)
+{
+    .first
+    {
+        background-color: #003476;
+        width: 100%;
+        min-height: 100px;
+    }
+    .second
+    {
+        background-color: #0062d2;
+        width: 100%;
+        min-height: 100px;
+    }
+    .third
+    {
+        background-color: #B4D2F7;
+        width: 100%;
+        min-height: 100px;
+    }
+    .fourth
+    {
+        background-color: #D5DFEF;
+        width: 100%;
+        min-height: 100px;
+    }
+    .fifth
+    {
+        background-color: #DFE1E5;
+        width: 100%;
+        min-height: 100px;
+    }
+
+}  
+  
+
+@media (min-width:501px){
+    .first
+    {
+        background-color: #003476;
+        width: 100%;
+        min-height: 100px;
+    }
+    .second
+    {
+        background-color: #0062d2;
+        width: 50%;
+        min-height: 100px;
+    }
+    .third
+    {
+        background-color: #B4D2F7;
+        width: 50%;
+        min-height: 100px;
+    }
+    .fourth
+    {
+        background-color: #D5DFEF;
+        width: 50%;
+        min-height: 100px;
+    }
+    .fifth
+    {
+        background-color: #DFE1E5;
+        width: 50%;
+        min-height: 100px;
+    }
+
+}  
+
+@media  (min-width:721px) {
+    .first
+    {
+        background-color: #003476;
+        width: 60%;
+        min-height: 100px;
+    }
+    
+    .second
+    {
+        
+        
+            background-color: #0062d2;
+            width: 40%;
+            min-height: 100px;
+    }
+    .third
+    {
+        background-color: #B4D2F7;
+        width: 33.33%;
+        min-height: 100px;
+    }
+    .fourth
+    {
+        background-color: #D5DFEF;
+        width: 33.33%;
+        min-height: 100px;
+    }
+    .fifth
+    {
+        background-color: #DFE1E5;
+        width: 33.33%;
+        min-height: 100px;
+    }
+
+
+}
